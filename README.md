@@ -3,7 +3,7 @@
 
 Battlecode is a real-time strategy game, for which we wrote an AI player. Our AI player had to strategically manage a robot army and control how the robots worked together to defeat the enemy team. We used artificial intelligence, pathfinding, distributed algorithms, and communications to make our player as competitive as possible.
 
-Below are images of a sample round. We used Java to program the bot. 
+Below are images of a sample round. We used Java to program the bot (which is named PiedPiper)
 
 
 <img width="1440" alt="Screen Shot 2021-04-27 at 7 47 45 PM" src="https://user-images.githubusercontent.com/55257208/116326032-85b10700-a791-11eb-9b73-20d62ceb0e5d.png">
