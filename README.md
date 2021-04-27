@@ -1,44 +1,13 @@
+
 # Battlecode 2021 Team "Ctrl Alt Defeat"
 
-### Run these commands frequently
-1. `git fetch`
-2. `git pull origin master`
-3. `./gradlew update`
-4. `./gradlew build`
+Battlecode is a real-time strategy game, for which we wrote an AI player. Our AI player had to strategically manage a robot army and control how the robots worked together to defeat the enemy team. We used artificial intelligence, pathfinding, distributed algorithms, and communications to make our player as competitive as possible.
 
-### For a new branch
-- `git checkout -b <branchname>`
-- `git push origin <branchname>`
-
-## Project Structure
-
-- `README.md`
-    This file.
-- `build.gradle`
-    The Gradle build file used to build and run players.
-- `src/`
-    Player source code.
-- `test/`
-    Player test code.
-- `client/`
-    Contains the client. The proper executable can be found in this folder (don't move this!)
-- `build/`
-    Contains compiled player code and other artifacts of the build process. Can be safely ignored.
-- `matches/`
-    The output folder for match files.
-- `maps/`
-    The default folder for custom maps.
-- `gradlew`, `gradlew.bat`
-    The Unix (OS X/Linux) and Windows versions, respectively, of the Gradle wrapper. These are nifty scripts that you can execute in a terminal to run the Gradle build tasks of this project. If you aren't planning to do command line development, these can be safely ignored.
-- `gradle/`
-    Contains files used by the Gradle wrapper scripts. Can be safely ignored.
+Below are images of a sample round. We used Java to program the bot. 
 
 
-### Useful Commands
+<img width="1440" alt="Screen Shot 2021-04-27 at 7 47 45 PM" src="https://user-images.githubusercontent.com/55257208/116326032-85b10700-a791-11eb-9b73-20d62ceb0e5d.png">
 
-- `./gradlew run`
-    Runs a game with the settings in gradle.properties
-- `./gradlew update`
-    Update to the newest version! Run every so often
-- `./gradlew build`
-    Run this after updating to build the project
+<img width="1440" alt="Screen Shot 2021-04-27 at 7 47 51 PM" src="https://user-images.githubusercontent.com/55257208/116326048-8c3f7e80-a791-11eb-8fac-27b25306c8c5.png">
+
+<img width="1440" alt="Screen Shot 2021-04-27 at 7 47 55 PM" src="https://user-images.githubusercontent.com/55257208/116326049-8d70ab80-a791-11eb-8253-973bd2b13c36.png">
